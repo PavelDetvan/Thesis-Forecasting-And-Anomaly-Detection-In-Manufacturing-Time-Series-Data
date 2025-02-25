@@ -1,0 +1,15 @@
+- measurements are dependent
+- some points correlated (although not that much, I will try also XYZ)
+- cleaned data
+- add uncertainty of prediction
+- 
+
+
+
+questions
+- normalize??? - depends on the alg used
+- imbalance in class - but maybe not a problem as we predict the meas_values - not a problem anymore
+- resample?? - research how to tackle this = during gaps maybe something resets - maybe split the time series into smaller ones - changes in distribution over time etc, find something systematic
+- features (lags, cummulative, rolling stats, time/shift, time_diff)
+- output (range (split into bins and predict to which bin it will fall) or exact value - investigate uncertainity)
+- how to deal with weekends/no-production/gaps 
